@@ -64,7 +64,7 @@ USE_XML_AUDIO_POLICY_CONF := 1
 TARGET_ENABLE_MEDIADRM_64 := true
 
 ### SEPOLICY
-include device/qcom/sepolicy-legacy-um/sepolicy.mk
+include device/qcom/sepolicy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += device/sony/common-treble/sepolicy/vendor
 
 ### SYSTEM PROPS
